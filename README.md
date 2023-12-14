@@ -33,6 +33,6 @@ Users should be able to:
 - Sourcegrapgh cody -> VScode extension coding assistant
 - chatGPT
 
-Coded with ❤️ by (https://twitter.com/vykiddeh_)
+Coded with ❤️ by [Viki Wainaina](https://twitter.com/vykiddeh_)
 
 **Have fun building!** 🚀
