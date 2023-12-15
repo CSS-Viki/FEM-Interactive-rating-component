@@ -6,21 +6,19 @@ const submitBtn = document.getElementById("submit");
 const modal = document.querySelector(".modal");
 const ratingContainer = document.querySelector(".rating-container");
 
+
 submitBtn.addEventListener("click", () => {
   modal.classList.add("active");
-  ratingContainer.style.display = "none";
+  ratingContainer.style.opacity = "0";
 });
 
 // Close modal when you click outside it
 window.addEventListener("click", (e) => {
-  if (
-    !modal.contains(e.target) &&
-    !submitBtn.contains(e.target)
-  ) {
+  if (!modal.contains(e.target) && !submitBtn.contains(e.target)) {
     {
       // Hide modal
       modal.classList.remove("active");
-      ratingContainer.style.display = "flex";
+      ratingContainer.style.opacity = "1";
     }
   }
 });
